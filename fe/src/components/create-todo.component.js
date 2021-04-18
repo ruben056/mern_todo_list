@@ -107,7 +107,7 @@ export default class CreateTodo extends Component {
         e.preventDefault();
         
         console.log(`Form submitted:
-            Todo Description: ${this.state. todo_description}
+            Todo Description: ${this.state.todo_description}
             Todo Responsible: ${this.state.todo_responsible}
             Todo Priority: ${this.state.todo_priority}`);
         
